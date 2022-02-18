@@ -5,3 +5,82 @@
 width: 100%;
 height: 100%;
 }
+
+.app-header{
+    height: 90px;
+    padding: 9px 18px;
+    width: calc(100% - 36px);
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+.app-logo-container{
+    height: 90px;
+    float: left;
+    width: 200px;
+    margin-left: 0px;
+}
+
+input[name="app-search-input"]{
+    height: 18px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.app-search-form{
+    float: right;
+    margin-top: 31px;
+}
+
+.app-nav-bar{
+    height: 20px;
+    padding: 14px 1px;
+    width: 100%;
+    margin-block: 10px;
+}
+
+.app-nav-link{
+    width: 23.97vmax;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    line-height: 20px;
+    border: 1px solid black;
+}
+
+.app-nav-link:hover{
+    text-decoration: underline;
+}
+
+.app-content{
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+}
+.app-content-aside{
+    width: 24.79%;
+    /*height: calc(100% - 250px);*/
+    border: 1px solid black;
+}
+
+#main-content-section{
+    width: 49.3%;
+    height: 37.6vmax;
+}
+
+.ul-part{
+    list-style: none;
+}
+
+#right-sidebar-menu{
+    list-style: none;
+    padding-block: 90px;
+}
+
+#page-footer{   
+    padding-block: 20px;
+    border: 1px solid black;
+    margin-block: 40px;
+}
